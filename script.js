@@ -33,10 +33,6 @@ function resetPlayerChoice() {
    catch(e){}
 }
 
-function resetComputerChoice() {
-
-}
-
 function resetScore() {
    playerScore = 0;
    computerScore = 0;
