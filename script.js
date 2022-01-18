@@ -171,10 +171,11 @@ function hideElements() {
 }
 
 function completeGame() {
-   let userContainer = document.getElementById('userChoiceContainer')
+   let userContainer = document.getElementById('userChoiceContainer');
+   debugger;
 
-   while(userContainer.lastChild.nodeName != "P") {
-      userContainer.removeChild(userContainer.lastChild);
+   while(userContainer.firstChild) {
+      userContainer.removeChild(userContainer.firstChild);
    }
 
    hideElements();
@@ -190,5 +191,5 @@ function completeGame() {
       roundResult.style.color = "Red";
    }
 
-   document.getElementById('playAgainButton').style.display = 'initial';
+   document.getElementById('playAgainButton').style.display = 'block';
 }
