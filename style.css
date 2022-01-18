@@ -1,0 +1,75 @@
+.flex-layout {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.flex-layout > * {
+   margin: 10px;
+}
+
+.img {
+   width: 120px;
+   height: 120px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   text-align: center;
+   padding: 10px;
+   border-radius: 2rem;
+   background-color: white;
+   font-weight: bold;
+}
+
+.isSelectable {
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.isSelectable:hover {
+   transform: scale(1.10);
+   cursor: pointer;
+}
+
+body {
+   background-color: whitesmoke;
+   padding: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selected {
+   background-color: orange;
+   color: white;
+   transform: scale(1.10);
+}
+
+.computerChoiceImage {
+   margin-left: auto;
+   margin-right: auto;
+   transform: scale(1.5);
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.result-text {
+   text-align: center;
+   font-size: xx-large;
+   font-weight: 700;
+}
+
+.round-counter {
+   text-align: right;
+}
+
+button {
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 6px;
+   border: 1px solid green;
+   color: white;
+   background-color: green;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button:hover {
+   cursor: pointer;
+}

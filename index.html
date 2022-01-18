@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div id="roundNumber" class="round-counter"></div>
+  <hr/>
+  <div id="userChoiceContainer" class="flex-layout">
+    <p>Your choice:</p>
+  </div>
+  <hr id="yourChoiceSeperator"/>
+  <p id="computerChoiceLabel">Computer choice:</p>
+  <figure id="computerChoiceContainer"></figure>
+  <hr id="figureSeperator"/>
+  <div class="flex-layout">
+    <div>
+      Player: <span id="playerScore">0</span>
+    </div>
+    <div>
+      Computer: <span id="computerScore">0</span>
+    </div>
+  </div>
+  <div id="roundResult" class="result-text"></div>
+  <button onclick="initializeGame()" id="playAgainButton">Play Again</button>
+  <script src="script.js"></script>
+</body>
+</html>
