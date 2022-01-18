@@ -18,7 +18,6 @@ function initializeGame() {
    document.getElementById('playAgainButton').style.display = 'none';
    let userChoice = document.getElementById('userChoiceContainer');
    userChoice.style.display = "flex";
-   userChoice.style.marginTop = "100px";
    GAME_OPTIONS.forEach(item => {
       userChoice.appendChild(getImage(item, true));
    });
